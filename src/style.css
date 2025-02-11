@@ -43,7 +43,7 @@ h2 {
 .time {
   font-size: 40px;
 }
-.time .small {
+small {
   font-size: 20px;
   vertical-align: middle;
 }
