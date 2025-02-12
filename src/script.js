@@ -42,7 +42,7 @@ function updateCity(event) {
           </div>
           <div class="time">${cityTime}</div>
         </div>
-        <a href="index.html" class="allCities">All cities</a>`;
+        <a href="https://world-clock-project-magda.netlify.app/" class="allCities">All cities</a>`;
   }
 }
 
