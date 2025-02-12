@@ -41,7 +41,8 @@ function updateCity(event) {
             <div class="date">${cityDate}</div>
           </div>
           <div class="time">${cityTime}</div>
-        </div>`;
+        </div>
+        <a href="index.html" class="allCities">All cities</a>`;
   }
 }
 
