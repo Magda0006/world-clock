@@ -17,25 +17,28 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select>
+      <select id="city">
         <option value="select">Select a city...</option>
-        <option value="rome">Rome</option>
-        <option value="milan">Milan</option>
+        <option value="Europe/Rome">Rome</option>
+        <option value="Africa/Cairo">Cairo</option>
+        <option value="Pacific/Honolulu">Honolulu</option>
+        <option value="Asia/Tokyo">Tokyo</option>
       </select>
-
-      <div class="city" id="rome">
-        <div>
-          <h2>Rome 🇮🇹</h2>
-          <div class="date"></div>
+      <div id="cities">
+        <div class="city" id="rome">
+          <div>
+            <h2>Rome 🇮🇹</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
-      </div>
-      <div class="city" id="cairo">
-        <div>
-          <h2>Cairo 🇪🇬</h2>
-          <div class="date"></div>
+        <div class="city" id="cairo">
+          <div>
+            <h2>Cairo 🇪🇬</h2>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
-        <div class="time"></div>
       </div>
     </div>
 
